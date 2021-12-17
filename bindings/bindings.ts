@@ -8,6 +8,7 @@ const opts = {
   name: "autopilot_deno",
   url: "target/debug",
 };
+
 const _lib = await Plug.prepare(opts, {
   mouse_pos_x: { parameters: [], result: "f64", nonblocking: false },
   notify: {
