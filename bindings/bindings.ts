@@ -6,7 +6,7 @@ function encode(v: string | Uint8Array): Uint8Array {
 }
 const opts = {
   name: "autopilot_deno",
-  url: "https://github.com/littledivy/autopilot-deno/releases/download/0.4.3",
+  url: "https://github.com/pumpncode/autopilot-deno/releases/download/0.4.4",
 };
 
 const _lib = await Plug.prepare(opts, {
